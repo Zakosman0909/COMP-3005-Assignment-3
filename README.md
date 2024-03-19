@@ -34,7 +34,9 @@ Step 3: Insert the intial data:
 
 # Running the Code
 Step 1: Navagaite to the directory where the code is being stored
+
 Step 2: pip install psycopg2
+
 Step 3: Run the code
 
 
