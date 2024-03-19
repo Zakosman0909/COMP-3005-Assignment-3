@@ -4,12 +4,19 @@ Applicant number: 101275379
 
 # Database Set up
 Step 1: Create a PostgreSQL database
+
 Step 2: Create the students table in pgAdmin:
+
   CREATE TABLE students (
+  
       student_id SERIAL PRIMARY KEY,
+      
       first_name TEXT NOT NULL,
+      
       last_name TEXT NOT NULL,
+      
       email TEXT NOT NULL UNIQUE,
+      
       enrollment_date DATE
   );
 
