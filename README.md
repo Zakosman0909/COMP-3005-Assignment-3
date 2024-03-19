@@ -18,7 +18,7 @@ Step 2: Create the students table in pgAdmin:
       email TEXT NOT NULL UNIQUE,
       
       enrollment_date DATE
-  `);
+  ``);
 
 Step 3: Insert the intial data:
   INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
